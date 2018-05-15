@@ -1,0 +1,18 @@
+{
+    "posts": [{
+            "title": "Some title",
+            "content": "sdfsdfsdf sdf sdf sdf",
+            "id": "1"
+        },
+        {
+            "title": "Strange planet",
+            "content": "Hoe sdf sdrteertyety  ertert ert",
+            "id": 3
+        },
+        {
+            "title": "Bla bla bla",
+            "content": "So, u are ugly",
+            "id": 4
+        }
+    ]
+}
