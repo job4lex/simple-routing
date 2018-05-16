@@ -1,18 +1,49 @@
 {
-    "posts": [{
-            "title": "Some title",
-            "content": "sdfsdfsdf sdf sdf sdf",
-            "id": "1"
-        },
-        {
-            "title": "Strange planet",
-            "content": "Hoe sdf sdrteertyety  ertert ert",
-            "id": 3
-        },
-        {
-            "title": "Bla bla bla",
-            "content": "So, u are ugly",
-            "id": 4
-        }
-    ]
+  "posts": [
+    {
+      "title": "Some title",
+      "content": "sdfsdfsdf sdf sdf sdf",
+      "id": "1"
+    },
+    {
+      "title": "Strange planet",
+      "content": "Hoe sdf sdrteertyety  ertert ert",
+      "id": 3
+    },
+    {
+      "title": "Bla bla bla",
+      "content": "So, u are ugly",
+      "id": 4
+    },
+    {
+      "title": "Enter your title",
+      "content": "Type content here",
+      "id": 5
+    },
+    {
+      "title": "Enter your title",
+      "content": "Type content here",
+      "id": 6
+    },
+    {
+      "title": "Enter your title",
+      "content": "Type content here",
+      "id": 7
+    },
+    {
+      "title": "Enter your title",
+      "content": "Type content here",
+      "id": 8
+    },
+    {
+      "title": "Enter your title",
+      "content": "Type content here",
+      "id": 9
+    },
+    {
+      "title": "Enter your title",
+      "content": "Type content here",
+      "id": 10
+    }
+  ]
 }

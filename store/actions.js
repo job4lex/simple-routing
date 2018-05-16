@@ -43,5 +43,10 @@ export default {
             commit(POPULATE_POSTS, response.data)
         })
     },
+    createPost: (store, post) => {
+        api.addNewPost(post).then(() => {
+            store.dispatch('populatePosts')
+        })
+    },
 
 }
