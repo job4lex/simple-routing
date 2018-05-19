@@ -13,16 +13,12 @@
 <script>
 // import AppLogo from '~/components/AppLogo.vue'
 import cardItem from "~/components/cardItem.vue";
-import { mapState } from "vuex";
 import { mapGetters, mapActions } from "vuex";
 import _ from "underscore";
 
 export default {
   components: {
     cardItem
-  },
-  fetch({ store }) {
-    store.commit("increment");
   },
   computed: mapGetters({
     posts: "getPosts"

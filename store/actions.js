@@ -1,6 +1,7 @@
 import getters from './getters'
 import {
     CHANGE_TITLE,
+    CHANGE_CONTENT,
     CHANGE_BG,
     POPULATE_SHOPPING_LISTS,
     POPULATE_POSTS
@@ -11,7 +12,11 @@ import api from '../api'
 export default {
     changeTitle: (store, data) => {
         store.commit(CHANGE_TITLE, data)
-        store.dispatch('updateList', data.id)
+        store.dispatch('updatePost', data.id)
+    },
+    changeContent: (store, data) => {
+        store.commit(CHANGE_CONTENT, data)
+        store.dispatch('updatePost', data.id)
     },
     changeBg: (store, data) => {
         store.commit(CHANGE_BG, data)
@@ -48,5 +53,13 @@ export default {
             store.dispatch('populatePosts')
         })
     },
-
+    deletePost: (store, id) => {
+        api.deletePost(id).then(() => {
+            store.dispatch('populatePosts')
+        })
+    },
+    updatePost: (store, id) => {
+        let Post = getters.getPostById(store.state, id)
+        api.updatePost(Post)
+    },
 }

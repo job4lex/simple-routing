@@ -1,49 +1,24 @@
 {
   "posts": [
     {
-      "title": "Some title",
-      "content": "sdfsdfsdf sdf sdf sdf",
-      "id": "1"
-    },
-    {
-      "title": "Strange planet",
+      "title": "Strange planetty34534",
       "content": "Hoe sdf sdrteertyety  ertert ert",
       "id": 3
     },
     {
-      "title": "Bla bla bla",
+      "title": "Bla bla blert erta",
       "content": "So, u are ugly",
       "id": 4
     },
     {
-      "title": "Enter your title",
-      "content": "Type content here",
-      "id": 5
+      "content": "Type content here1",
+      "id": 7,
+      "title": "23wfsf1fthfgh"
     },
     {
-      "title": "Enter your title",
-      "content": "Type content here",
-      "id": 6
-    },
-    {
-      "title": "Enter your title",
-      "content": "Type content here",
-      "id": 7
-    },
-    {
-      "title": "Enter your title",
-      "content": "Type content here",
+      "title": "Жили были у бабуси...\n",
+      "content": "Про двух гусей, что не хотели жить как все и поперлись гулять...\n",
       "id": 8
-    },
-    {
-      "title": "Enter your title",
-      "content": "Type content here",
-      "id": 9
-    },
-    {
-      "title": "Enter your title",
-      "content": "Type content here",
-      "id": 10
     }
   ]
 }
