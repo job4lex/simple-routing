@@ -3,7 +3,7 @@ import VueResource from 'vue-resource'
 
 Vue.use(VueResource)
 
-const PostsResource = Vue.resource('http://localhost:5000/' + 'posts{/id}')
+const PostsResource = Vue.resource('api/' + 'posts{/id}')
 
 export default {
     fetchPosts: () => {
